@@ -1,9 +1,5 @@
 <?php
 
-use Kunnu\Dropbox\Dropbox;
-use Kunnu\Dropbox\DropboxApp;
-use Kunnu\Dropbox\DropboxFile;
-
 require_once 'Utils.php';
 
 $dropbox = new Dropbox(new DropboxApp(getenv("DB_ID"), getenv("DB_SECRET"), getenv("DB_TOKEN")));
