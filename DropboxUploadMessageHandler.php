@@ -2,6 +2,11 @@
 
 require_once 'Utils.php';
 
+use Kunnu\Dropbox\Dropbox;
+use Kunnu\Dropbox\DropboxApp;
+use Kunnu\Dropbox\DropboxFile;
+
+
 $dropbox = new Dropbox(new DropboxApp(getenv("DB_ID"), getenv("DB_SECRET"), getenv("DB_TOKEN")));
 
 function handleDropboxMessage($update, &$conversations)
