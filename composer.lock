@@ -1,26 +1,22 @@
 {
-  "name": "ilteoood/tele_uploader",
-  "description": "A Telegram uploader bot",
-  "type": "project",
-  "license": "AGPL-3.0",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/danog/phpseclib"
-    }
-  ],
-  "require": {
-    "kunalvarma05/dropbox-php-sdk": "^0.2.1",
-    "amphp/dns": "dev-master",
-    "amphp/uri": "dev-master",
-    "amphp/file": "dev-master",
-    "phpseclib/phpseclib": "dev-master#27370df",
-    "rollbar/rollbar": "dev-master",
-    "danog/madelineproto": "^3.1"
-  },
-  "authors": [
-    {
-      "name": "iLTeoooD"
-    }
-  ]
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "80975eb0b65f1e85eb59dbd5eec7ccd7",
+    "packages": [],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.2.0",
+        "ext-mbstring": "*",
+        "ext-gmp": "*",
+        "ext-xml": "*"
+    },
+    "platform-dev": []
 }
